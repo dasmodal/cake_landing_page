@@ -61,3 +61,41 @@
   transform: scale(1.05);
   transition: all ease .1s;
 }
+
+@media screen and (max-width: 767px) {
+
+.about_wrapper {
+  flex-direction: column;
+  min-height: 0;
+}
+
+.about_title {
+  margin-top: 35px;
+  text-align: center;
+  font-size: 2.2em;
+}
+
+.about_info {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.about_description {
+  font-size: 16px;
+  line-height: 2.2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.about_more {
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 85%;
+}
+
+.about_photo {
+  display: none;
+}
+
+}

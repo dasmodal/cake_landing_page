@@ -75,3 +75,35 @@ li {
   transform: scale(1.05);
   transition: all ease .1s;
 }
+
+@media screen and (max-width: 767px) {
+
+.intro_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: url(../img/cake-title-s.png) no-repeat;
+  background-size: 130%;
+  background-position: 40px 330px;
+}
+
+.company_name_p {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.company_name_title_s {
+  font-size: 3.8em;
+}
+
+.company_name_title_b {
+  font-size: 6em;
+  letter-spacing: 0.05em;
+  margin-bottom: 40px;
+}
+
+.title_cake {
+  display: none;
+}
+
+}

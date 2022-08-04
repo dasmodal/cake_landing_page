@@ -41,3 +41,19 @@
 }
 
 @media screen and (max-width: 767px) {
+
+.reviews_wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.reviews_title {
+  font-size: 2.2em;
+}
+
+.reviews_block {
+  flex-direction: column;
+  font-size: 80%;
+}
+
+}
