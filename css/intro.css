@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+li {
+  list-style: none;
+}
+
+.intro_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.company_name {
+  flex-basis: 30%;
+  max-width: 100%;
+}
+
+.title_cake {
+  flex-basis: 60%;
+  max-width: 100%;
+}
+
+.title_cake_img {
+  object-fit: cover;
+  object-position: 15px 5px;
+  height: 100%;
+  width: 100%;
+  /*width: 100%;*/
+}
+
+.company_name_p {
+  margin-top: 20px;
+  margin-bottom: 55px;
+  font-size: 20px;
+}
+
+.company_name_title_s {
+  font-size: 4.2em;
+}
+
+.company_name_title_b {
+  font-size: 7em;
+  letter-spacing: 0.05em;
+  margin-bottom: 40px;
+}
+
+.company_name_description {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  padding-right: 60px;
+  margin-bottom: 55px;
+}
+
+.intro_more {
+  display: flex;
+  align-items: center;
+}
+
+.intro_more_text {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.intro_link_img {
+  padding-left: 20px;
+}
+
+.intro_link_img:hover {
+  transform: scale(1.05);
+  transition: all ease .1s;
+}

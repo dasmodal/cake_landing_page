@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Romul";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Romul"),
+       url("../fonts/romul-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gilroy"),
+       url("../fonts/gilroy-regular.woff2") format("woff2"),
+       url("../fonts/gilroy-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Gilroy"),
+       url("../fonts/gilroy-medium.woff2") format("woff2"),
+       url("../fonts/gilroy-medium.woff") format("woff");
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Romul', 'Arial';
+}
