@@ -79,10 +79,10 @@ li {
 @media screen and (max-width: 767px) {
 
 .intro_wrapper {
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
   justify-content: center;
-  background: url(../img/cake-title-s.png) no-repeat;
+  margin: 0;
+  background: url(../img/cake-title-s-light.png) no-repeat;
   background-size: 130%;
   background-position: 40px 330px;
 }
@@ -104,6 +104,12 @@ li {
 
 .title_cake {
   display: none;
+}
+
+.intro_more {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 }
