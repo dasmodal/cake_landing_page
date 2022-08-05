@@ -27,7 +27,7 @@
   display: flex;
   margin-bottom: 80px;
   min-height: 160px;
-  flex-basis: 33%;
+  width: 33%;
   max-width: 80%;
   padding-left: 5px;
   padding-right: 5px;
@@ -80,7 +80,11 @@
 }
 
 .benefit_img {
-  margin-right: 30px;
+  /*margin-right: 30px;*/
+}
+
+.benefits {
+  flex-wrap: wrap;
 }
 
 .benefits_title {
@@ -91,6 +95,8 @@
 }
 
 .benefit_block {
+  max-width: 100%;
+  flex-basis: 100%;
   border-left: solid 10px;
   border-top: solid 10px;
   font-size: 90%;
