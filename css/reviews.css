@@ -40,6 +40,53 @@
   line-height: 1.7em;
 }
 
+@media screen and (max-width: 1300px) {
+
+.review {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.review_photo {
+  width: 50%;
+}
+
+.review_text {
+  width: 100%;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.7em;
+  margin-top: 10px;
+}
+
+}
+
+@media screen and (max-width: 900px) {
+
+.reviews_block {
+  flex-wrap: wrap;
+}
+
+.review {
+  flex-basis: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.review_photo {
+  width: 30%;
+}
+
+.review_text {
+  width: 65%;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.7em;
+  margin-top: 10px;
+}
+
+}
+
 @media screen and (max-width: 767px) {
 
 .reviews_wrapper {
