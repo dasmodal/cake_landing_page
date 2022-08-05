@@ -90,7 +90,6 @@
   margin-right: auto;
   margin-bottom: 50px;
   width: 350px;
-<<<<<<< HEAD
 }
 
 .discount_photo img {
@@ -99,16 +98,6 @@
 
 }
 
-=======
-}
-
-.discount_photo img {
-  object-position: 0px -100px;
-}
-
-}
-
->>>>>>> cd432e0aedbaf2c64bca816f8f63175f1d10a3de
 @media screen and (max-width: 767px) {
 
 .discount_wrapper {
