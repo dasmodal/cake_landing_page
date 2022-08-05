@@ -10,18 +10,18 @@ li {
 
 .intro_wrapper {
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-end;
+  width: 90%;
+  margin-left: 10%;
 }
 
 .company_name {
-  flex-basis: 30%;
-  max-width: 100%;
+  flex-basis: 40%;
 }
 
 .title_cake {
   flex-basis: 60%;
-  max-width: 100%;
+  flex-shrink: 2;
 }
 
 .title_cake_img {
@@ -29,7 +29,6 @@ li {
   object-position: 15px 5px;
   height: 100%;
   width: 100%;
-  /*width: 100%;*/
 }
 
 .company_name_p {
@@ -59,6 +58,7 @@ li {
 .intro_more {
   display: flex;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .intro_more_text {
