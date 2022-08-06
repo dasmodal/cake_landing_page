@@ -79,19 +79,15 @@
   margin: 0 auto;
 }
 
-.benefit_img {
-  /*margin-right: 30px;*/
-}
-
 .benefits {
   flex-wrap: wrap;
 }
 
 .benefits_title {
-  font-size: 2.2em;
-  margin-top: 2em;
+  font-size: 2.1em;
+  margin-top: 2em1;
   margin-bottom: 40px;
-  letter-spacing: .05em;
+  letter-spacing: 0em;
 }
 
 .benefit_block {
